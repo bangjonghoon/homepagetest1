@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/css.css">
+</head>
+<body>
+  <div class="container">
+    <%- include('navi.ejs') %>
+		<main class="headup_display">
+			<video class="headup_visual" muted autoplay>
+				<source src="./images/hud_main.mp4" type="video/mp4" />
+			</video>
+				<div class="headup_txtwrap">
+					<h3>challenge and passion</h3>
+				</div>
+				<div class="headup_inner">
+					<ul class="headup_gnb">
+						<li><a href="/headupdisplay">Head-up Display</a></li>
+						<li><a href="/culture">RADAR Sensor</a></li>
+						<li><a href="#">Vision Solution</a></li>
+					</ul>
+				</div>
+
+		</main>
+
+		<section class="talent-wrap">
+			<div class="talent_inner">
+				<h3 class="talent_title">Head-up Display</h3>
+				<p class="overview_stitle">
+					자동차용 HUD (Head-up Display)는 기능 및 구조상 자율주행차 시대에 가장 중요한 AR Solution으로서<br>
+					V2X(Vehicle to Everything)와 커넥티비티 기능을 접목하여 운전자에게 보다 더 유용한 정보를 제공합니다.  
+				</p>
+			</div>
+
+			<article class="hud_fouse">
+				<img src="./images/hud_focus_bg.jpg" alt="">
+			</article>
+
+			<article class="hud-wrap">
+				<div class="hud_contents">
+					<div class="hud_text_box">
+						<div class="hud_text_inner">
+							<strong class="hud_tit">HUD (Head-up Display)</strong>
+							<p class="hud_stit">
+								HUD (Head-up Display)는 운전자가전방을 주시하면서, 자동차의 주행정보<br> 
+								내비게이션정보과 더불어 차선 지원 순향 제어, 전방 충돌 경고 등<br>  
+								ADAS 정보를 제공하는 미래자동차 핵심 전달 부품입니다.<br>  
+								
+							</p>
+						</div>
+					</div>
+					<div class="hud-img-box">
+						<img src="./images/hud_img01.jpg" alt="hud_img01">
+					</div>	
+				</div>
+	
+				<div class="hud_contents">
+					<div class="hud_text_box">
+						<div class="hud_text_inner">
+							<strong class="hud_tit">AR HUD (Augmented Reality Head-up Display)</strong>
+							<p class="hud_stit">
+								AR HUD (Augmented Reality Head-up Display)는 일반 HUD에 증강현실(AR)<br> 
+								기술을 접목하여 더 넓은 FOV(Field of View)및 선명한 이미지를 실현하였으며<br>  
+								실현하였으며, 유연성(flexibility)과 사용자 정의 가능성(customizability)을<br> 
+								기본으로 향후 높은 성장성이 전망됩니다. 
+							</p>
+						</div>
+					</div>
+					<div class="hud-img-box">
+						<img src="./images/hud_img02.jpg" alt="hud_img01">
+					</div>	
+				</div>
+			</article>
+			
+			<article class="ar-contents">
+				<div class="ar_list">
+					<div class="ar_text_box">
+						<strong class="ar_tit">ADAS & AR(Augmented Reality)</strong>
+						<p class="ar_stit">
+							ADAS 기능 및 증강현실(AR) 네비게이션 등의 주요 정보를 운전자에게<br>
+							효과적으로 전달하기 위한 핵심 제품인 HUD (Head-up Display)는<br>
+							고도의 증강현실(AR) 기술과 만나 새로운 가능성을 제시하고 있습니다.  
+						</p>
+					</div>
+				  <div class="ar_img_box">
+						<div>
+							<img src="./images/ar_img01.jpg" alt="">
+						</div>
+						<div>
+							<img src="./images/ar_img02.jpg" alt="">
+						</div>
+					</div>
+				</div>		
+			</article>
+
+			<article class="next-contents">
+				<div class="next_list">
+					<div class="next_text_box">
+						<strong class="next_tit">Next-Generation Technology</strong>
+						<p class="next_stit">
+							자동차용 HUD (Head-up Display)는 모션 인식, UI/UX 기술 및 3D홀로그램 등의<br>
+							기능이 적용된 차세대 기술을 통하여 운전자에게 핵심 정보를 제공하는<br> 
+							안전 주행의 필수 장치로 발전하고 있습니다.   
+						</p>
+					</div>
+				  <div class="next_img_box">
+						<div>
+							<img src="./images/next_01.jpg" alt="">
+						</div>
+						<div class="next-bottom-box">
+							<div>
+								<img src="./images/next_02.jpg" alt="">
+							</div>
+							<div>
+								<img src="./images/next_02.jpg" alt="">
+							</div>
+						</div>
+						
+					</div>
+				</div>		
+			</article>
+		</section>
+    
+    <%- include('footer.ejs') %>
+  </div>
+   
+  </section>
+</body>
+</html>

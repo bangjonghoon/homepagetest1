@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+				<!-- CSS -->
+				<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+				<link rel="stylesheet" href="./css/css.css" />
+				<!-- Xe-icon -->
+				<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css" />
+				<!-- Fullpage -->
+				<link rel="stylesheet" href="./js/Fullpage/fullpage.css" />
+	</head>
+	<body>
+		<div class="container">
+			<%- include('navi.ejs') %>
+			<div id="fullpage">
+				<div class="section sec01">
+					<div class="swiper-container swiper1">
+						<!-- 슬라이드 이미지 -->
+						<div class="swiper-wrapper">
+							<!-- Slides -->
+							<div class="swiper-slide">
+								<video muted>
+									<source src="./images/main_v01.mp4" type="video/mp4" />
+								</video>
+								<div class="main-contents">
+									<h3 class="main-title"><span>Automotive</span>&nbsp;Components Solution</h3>
+									<strong class="sub-title">
+										도전과 열정으로 지속적인 기술개발을 통해 세계적인<br/>
+										자동차 전장부품 기업으로 성장해나가겠습니다.
+									</strong>
+									<p class="sub-stitle">
+										We will grow into a global automotive electronic parts company 
+										through continuous technological development with challenge and passion.
+									</p>
+								</div>
+								<div class="black_bg"></div>
+							</div>
+	
+							<div class="swiper-slide">
+								<video muted>
+									<source src="./images/main_v02.mp4" type="video/mp4" />
+								</video>
+								<div class="main-contents">
+									<h3 class="main-title"><span>Head-up</span>&nbsp;Display</h3>
+									<strong class="sub-title">
+										증강현실 (AR, Augmented Reality) 및 홀로그램 (Hologram) 기술이 더해진<br>
+										Head-up Display를 통하여 미래모빌리티 시대를 만들어 나가겠습니다.
+									</strong>
+									<p class="sub-stitle">
+										We are creating the future mobility through head-up displays 
+										with augmented reality and hologram technology.
+									</p>
+								</div>
+								<div class="black_bg"></div>
+							</div>
+	
+							<div class="swiper-slide">
+								<video muted>
+									<source src="./images/main_v03.mp4" type="video/mp4" />
+								</video>
+								<div class="main-contents">
+									<h3 class="main-title"><span>RADAR</span>&nbsp;Sensor</h3>
+									<strong class="sub-title">
+										기술력을 통한 품질과 혁신으로 미래 자율주행(Autonomous Driving)<br>
+										시대의 중심이 되겠습니다.  
+									</strong>
+									<p class="sub-stitle">
+										We will become the leader of the future autonomous driving 
+										with quality and innovation through technology.
+									</p>
+								</div>
+								<div class="black_bg"></div>
+							</div>
+
+							<div class="swiper-slide">
+								<video muted>
+									<source src="./images/main_v04.mp4" type="video/mp4" />
+								</video>
+								<div class="main-contents">
+									<h3 class="main-title"><span>Vision</span>&nbsp;Solution</h3>
+									<strong class="sub-title">
+										카메라 센싱 및 고화질 영상이미지 처리기술을 통한<br> 
+										영상전문기업으로 발전하고 있습니다. 
+									</strong>
+									<p class="sub-stitle">
+										It is developing into an image company through camera sensing
+										and high-definition image processing technology.
+									</p>
+									
+								</div>
+								<div class="black_bg"></div>
+							</div>
+						</div>
+	
+						<!-- Arrow button -->
+						<div class="slide_btn">
+							<div class="prev">
+								<p>PREV</p>
+							</div>
+							<span>/</span>
+							<div class="next">
+								<p>NEXT</p>
+							</div>
+						</div>
+						<!-- If we need pagination -->
+					
+						<div class="element_unit">
+							<div class="autoplay-progress">
+								<svg viewBox="0 0 48 48">
+									<circle cx="24" cy="24" r="20"></circle>
+								</svg>
+								<span></span>
+							</div>
+								<!-- Add Pagination -->
+							<div class="swiper-pagination"></div>
+						</div>
+					
+					</div>
+					<div class="scroll-mouse">
+						<img src="./images/scroll.png" alt="scroll">
+				</div>
+				</div>
+	
+				<div class="section sec02">
+					<!-- Slider main container -->
+					<div class="swiper-inner">
+						<div class="tech-txtwrap">
+							<h3><span>Technology</span> Development</h3>
+							<p>자동차 전장산업의 핵심기술 자체개발을 통한 미래 모빌리티 SOLUTION을 구현</p>
+						</div>
+						<div class="swiper-container swiper2">
+							<!-- Slides -->
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<img src="./images/technology01.jpg" alt="" />
+									<div class="intro">
+										<h3>AR HUD (Augmented Reality Heads-up display)</h3>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<img src="./images/technology02.jpg" alt="" />
+									<div class="intro">
+										<h3>PGU (Picture Generation Unit)</h3>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<img src="./images/technology03.jpg" alt="" />
+									<div class="intro">
+										<h3>고화질 영상처리기술 (Image Processing)</h3>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<img src="./images/technology04.jpg" alt="" />
+									<div class="intro">
+										<h3>임베디드 Hardware / Software</h3>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<img src="./images/technology05.jpg" alt="" />
+									<div class="intro">
+										<h3>Digital Smart Mirror</h3>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<img src="./images/technology06.jpg" alt="" />
+									<div class="intro">
+										<h3>HOE (Holographic Optical Element)</h3>
+									</div>
+								</div>
+							</div>
+								<!-- If we need navigation buttons -->
+								<div class="swiper-navigation">
+									<div class="swiper-button-prev"></div>
+									<div class="swiper-button-next"></div>
+								</div>
+						</div>
+					</div>
+				</div>
+	
+				<div class="section sec03">
+					<h3 class="title">Core Value</h3>
+					<p class="sub-title">
+						티앤에프글로벌은 기술혁신 / 품질혁신 / 경영혁신 핵심가치를<br />
+						통하여 최고의 전장부품 기업으로 발전하고 있습니다.
+					</p>
+					<div class="items">
+						<div class="item innovation01">
+							<div class="desc">
+								<div class="content">
+									<p class="content-dec">innovation 01</p>
+									<h3 class="content-title">기술혁신</h3>
+									<p class="ino-stitle">
+										첨단기술 확보를 통해 지속적인 성장 추구
+									</p>
+								</div>
+								<div class="icon-box">
+									<i class="xi-trending-flat"></i>
+								</div>
+							</div>
+						</div>
+	
+						<div class="item innovation02">
+							<div class="desc">
+								<div class="content">
+									<p class="content-dec">innovation 02</p>
+									<h3 class="content-title">경영혁신</h3>
+									<p class="ino-stitle">
+										창의적인 개선활동을 통한 제품 품질 향상
+									</p>
+								</div>
+								<div class="icon-box">
+									<i class="xi-trending-flat"></i>
+								</div>
+							</div>
+						</div>
+	
+						<div class="item innovation03">
+							<div class="desc">
+								<div class="content">
+									<p class="content-dec">innovation 03</p>
+									<h3 class="content-title">품질혁신</h3>
+									<p class="ino-stitle">
+										미래 모빌리티시장 대응을 위한 선제적 자원 확보
+									</p>
+								</div>
+								<div class="icon-box">
+									<i class="xi-trending-flat"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="line">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+				<div class="section sec04">
+					<div class="esg-inner">
+						<div class="esg-desc">
+							<h3>ESG Evolution</h3>
+							<p>
+								티앤에프글로벌은 미래 지속가능한 발전을</br> 
+								위해 ESG경영을 실천하고 있습니다.
+							</p>
+						</div>
+						<div class="esg-contents">
+							<div class="itembox item01">
+								<div class="esg-cont">
+									<img src="./images/esg_icon1.png" alt="" />
+									<h3>환경</h3>
+									<p>ENVIROMENTAL</p>
+								</div>
+							</div>
+							<div class="itembox-wrap">
+								<div class="itembox item02">
+									<div class="esg-cont">
+										<img src="./images/esg_icon2.png" alt="" />
+										<h3>사회</h3>
+										<p>SOCIAL</p>
+									</div>
+								</div>
+								<div class="itembox item03">
+									<div class="esg-cont">
+										<img src="./images/esg_icon3.png" alt="" />
+										<h3>지배구조</h3>
+										<p>GOVERNANCE</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				<div class="section sec05 fp-auto-height">
+					<div class="info-wrap">
+						<div class="finance">
+							<div class="info-txt">
+								<img src="./images/finance_icon.png" alt="">
+								<h3>재무정보</h3>
+								<p>빠르고 정확하게 재무정보를 알려 드립니다.</p>
+							</div>
+						</div>
+						<div class="recrute">
+							<div class="info-txt">
+								<img src="./images/recruit_icon.png" alt="">
+								<h3>채용정보</h3>
+								<p>빠르고 정확하게 재무정보를 알려 드립니다.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+	
+				<div class="section  fp-auto-height">
+					<%- include('footer.ejs') %>
+				</div>
+			</div>
+		</div>
+
+			<!-- jQuery CDN 2.1.1 -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+			<script src="https://ricostacruz.com/jquery.transit/jquery.transit.min.js"></script>
+			<!-- Fullpage -->
+			<script src="./js/Fullpage/fullpage.js"></script>
+			<!-- JS -->
+			<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+			<script src="./js/navigation.js"></script>
+			<script src="./js/fullpage_script.js"></script>
+			<script src="./js/swiper_script.js"></script>
+			<script src="./js/swiper_script2.js"></script>
+	</body>
+</html>

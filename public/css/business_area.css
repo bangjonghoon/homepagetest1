@@ -1,0 +1,270 @@
+.container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.headup_display {
+	width: 100%;
+	height: 80vh;
+	overflow: hidden;
+	position: relative;
+	border: 1px solid black;
+	background-size: cover;
+	background-position: center center;
+}
+.headup_visual {
+	display: block;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+	border: none;
+}
+
+.headup_txtwrap {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.headup_txtwrap h3 {
+	font-size: 70px;
+	color: #fff;
+	font-family: "Oswald", sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.headup_txtwrap h3 {
+	animation: ani 1.2s 0.4s both;
+}
+
+@keyframes ani {
+	0% {
+		opacity: 0;
+		transform: translateY(70px);
+	}
+	50% {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.headup_inner {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 0;
+	z-index: 100 !important;
+	width: 1440px;
+	margin: 0 auto;
+}
+
+.headup_gnb {
+	width: 1440px;
+	height: 60px;
+	z-index: 1;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: rgb(0, 0, 0, 0.7);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.headup_gnb li {
+	text-align: center;
+	width: 33.333%;
+	height: 60px;
+	line-height: 60px;
+	border-left: 1px solid #373737;
+	transition: all 0.3s ease-in-out;
+}
+.headup_gnb li:hover {
+	background: #fff;
+	cursor: pointer;
+}
+.headup_gnb li a {
+	display: inline-block;
+	width: 188px;
+	height: 100%;
+	color: #fff;
+	font-weight: 500;
+	font-size: 18px;
+}
+.headup_gnb li:hover a {
+	color: #000;
+	font-weight: 500;
+}
+
+.hud_fouse {
+	width: 100%;
+	height: 457px;
+	margin: 150px 0 170px;
+}
+.hud_fouse img {
+	width: 100%;
+}
+.hud-wrap {
+	width: 100%;
+	margin: 170px 0;
+}
+.hud_contents {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.hud_contents > div {
+	display: flex;
+	justify-content: space-between;
+	width: 50%;
+	height: 528px;
+	background: #f3f3f3;
+}
+.hud_text_box {
+	flex: 1;
+}
+.hud_text_inner {
+	padding: 110px 90px;
+}
+.hud_tit {
+	font-weight: 500;
+	font-size: 40px;
+	letter-spacing: -0.01442em;
+	line-height: 1.5em;
+}
+.hud_stit:before {
+	content: "";
+	width: 42px;
+	height: 3px;
+	background-color: #202020;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.hud_stit {
+	position: relative;
+	font-size: 22px;
+	line-height: 1.7em;
+	margin-top: 27px;
+	padding-top: 35px;
+}
+.hud-img-box {
+	flex: 1;
+}
+.hud-img-box img {
+	width: 100%;
+	background-size: cover;
+}
+
+.hud_contents:nth-child(odd) {
+	flex-direction: row-reverse;
+}
+
+.ar-contents {
+	width: 100%;
+	height: 650px;
+	margin-bottom: 140px;
+	z-index: 0;
+	background: linear-gradient(to right, #042e6f, #042e6f 50%, #fff 0%, #fff);
+}
+.ar_list {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+.ar_text_box {
+	padding: 130px 40px;
+}
+.ar_tit {
+	font-weight: 500;
+	font-size: 40px;
+	letter-spacing: -0.01442em;
+	line-height: 1.5em;
+	color: #fff;
+}
+.ar_stit:before {
+	content: "";
+	width: 42px;
+	height: 3px;
+	background-color: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.ar_stit {
+	position: relative;
+	font-size: 22px;
+	line-height: 1.7em;
+	margin-top: 27px;
+	padding-top: 35px;
+	color: #fff;
+}
+.ar_img_box {
+	display: flex;
+	width: 600px;
+	gap: 10px;
+	height: 387px;
+}
+
+.next-contents {
+	width: 100%;
+	height: 650px;
+	z-index: 0;
+	margin-bottom: 250px;
+}
+.next_list {
+	display: flex;
+	height: 100%;
+}
+.next_list > div {
+	width: 50%;
+}
+.next_text_box {
+	padding: 110px 80px;
+}
+.next_tit {
+	font-weight: 500;
+	font-size: 40px;
+	letter-spacing: -0.01442em;
+	line-height: 1.5em;
+}
+.next_stit:before {
+	content: "";
+	width: 42px;
+	height: 3px;
+	background-color: #222;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.next_stit {
+	position: relative;
+	font-size: 22px;
+	line-height: 1.7em;
+	margin-top: 27px;
+	padding-top: 35px;
+}
+.next_img_box {
+	width: 600px;
+	gap: 5px;
+	height: 650px;
+}
+.next_img_box img {
+	width: 100%;
+	height: 320px;
+}
+.next-bottom-box {
+	display: flex;
+	gap: 10px;
+}
+.next-bottom-box > div {
+  position: relative;
+	width: 50%;
+}

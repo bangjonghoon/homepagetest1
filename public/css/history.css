@@ -1,0 +1,149 @@
+.overview-wrap {
+	width: 100%;
+	height: 100%;
+	padding: 80px 0;
+}
+.overview-contents {
+	width: 1244px;
+	margin: 0 auto;
+}
+
+.overview_title {
+	font-size: 45px;
+	color: #000;
+	font-weight: 800;
+	text-align: center;
+	margin: 110px 0 50px;
+}
+.overview_stitle {
+	font-size: 23px;
+	color: #000;
+	letter-spacing: -0.018em;
+	line-height: 1.4em;
+	font-weight: 400;
+	text-align: center;
+	margin: 8px 0 65px;
+}
+
+
+.history_fouse{}
+.history_focus_inner{
+	width: 1440px;
+	margin:0 auto;
+}
+.history_focus_list{
+	position: relative;
+	width: 100%;
+}
+.about_focus_list img{
+	background-size: cover;
+	background-position: center center;
+}
+.history_focus_txtbox{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+	z-index: 1;
+	text-align: center;
+
+}
+
+.history_focus_txtbox > h3{
+	font-size: 52px;
+	font-weight: 500;
+  color:#fff;
+}
+.history_focus_txtbox > p{
+  margin-top: 22px;
+	font-size: 19px;
+	line-height: 1.5em;
+  color:#fff;
+}
+
+
+.timeline-section{
+	width: 100%;
+	min-height: 100vh;
+  margin: 150px 0;
+}
+.timeline-items{
+	margin:auto;
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+}
+
+.timeline-items::before{
+	content: '';
+	position: absolute;
+	width: 2px;
+	height: 100%;
+	background-color: #eee;
+	left: calc(50% - 1px);
+}
+.timeline-item{
+	margin-bottom: 11rem;
+	width: 100%;
+	position: relative;
+}
+.timeline-item:last-child{
+	margin-bottom: 0;
+}
+.timeline-item:nth-child(odd){
+    padding-right: calc(50% + 70px);
+	  text-align: right;
+    color: #006c80;
+}
+.timeline-item:nth-child(even){
+    padding-left: calc(50% + 70px);
+    color: #003a61;
+}
+.timeline-dot{
+	height: 16px;
+	width: 16px;
+	background-color: #003a61;
+	position: absolute;
+	left: calc(50% - 8px);
+	border-radius: 50%;
+	top:10px;
+}
+.timeline-dot:after{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    content:"";
+    height: 7px;
+    width: 7px;
+    background: #fff;
+    border-radius: 5px;
+
+}
+.timeline-date{
+    font-family: 'Oswald', sans-serif;
+	font-size: 3rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.timeline-content{ 
+    margin-top: 30px;
+	border-radius: 5px;
+    color:#222;
+}
+.timeline-content ol li{
+	font-size: 20px;
+} 
+.timeline-content ol li span{
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    margin-right: 8px;
+}
+.timeline-content h3{
+    font-size: 20px;
+	color: #ffffff;
+	margin:0 0 10px;
+	text-transform: capitalize;
+	font-weight: 500;
+}
