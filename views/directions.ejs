@@ -5,15 +5,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
 		<link rel="stylesheet" href="./css/css.css" />
-		<!-- Link Swiper's CSS -->
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 	</head>
 	<body>
 		<div class="container">
 			<%- include('navi.ejs') %>
-			<div class="visual about_visual">
+			<div class="directions_visual">
 				<div class="about_txtwrap">
 					<h3>회사소개</h3>
+					<p>고객에게 최고의 가치를 제공하는 전장부품 전문 소재기업</p>
 				</div>
 				<div class="about_inner">
 					<ul class="about_gnb">
@@ -21,22 +20,16 @@
 						<li><a href="/vision">VISION</a></li>
 						<li><a href="/history">회사연혁</a></li>
 						<li><a href="#">CI</a></li>
-						<li><a href="/directions">위치안내</a></li>
+						<li><a href="#">위치안내</a></li>
 					</ul>
 				</div>
 			</div>
 
-			<section class="history-wrap">
-				<div class="history_inner">
-					<img src="./images/history_content.jpg" alt="" />
-				</div>
+			<section class="directions">
+				<img src="./images/directions_contents.jpg" alt="" />
 			</section>
 
 			<%- include('footer.ejs') %>
 		</div>
-
-		<!-- Swiper JS -->
-		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-		<script src="./js/swiper_script3.js"></script>
 	</body>
 </html>

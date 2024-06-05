@@ -5,7 +5,9 @@
 
 @import url("./about_vison.css");
 @import url("./about_us.css");
+@import url("./vision.css");
 @import url("./history.css");
+@import url("./esg_innovation.css");
 
 /* 사업영역 */
 @import url("./business_area.css");

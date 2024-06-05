@@ -21,7 +21,9 @@ const server = async () => {
 
 			app.use("/", require("./routes/about_us.js"));
 			app.use("/", require("./routes/business_area.js"));
+			app.use("/", require("./routes/sustainable-management.js"));
 			app.use("/", require("./routes/recruite.js"));
+			app.use("/", require("./routes/investment.js"));
 
 			app.get("/", function (req, res) {
 				res.render("index.ejs");

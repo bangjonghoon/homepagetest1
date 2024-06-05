@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./css/css.css" />
+	</head>
+	<body>
+		<div class="container">
+			<%- include('navi.ejs') %>
+			<section class="esg_main">
+				<div class="esg_visual">
+					<div class="esg_txtwrap">
+						<h3>지속가능경영</h3>
+					</div>
+					<div class="recruite_inner">
+						<ul class="recruite_gnb">
+							<li><a href="/personnelsystem">핵심가치</a></li>
+							<li><a href="/culture">ESG 혁신</a></li>
+							<li><a href="#">인증현황</a></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+
+			<section class="esg_sec01">
+				<div class="esg_title_inner">
+					<h3 class="esg_title">ESG 혁신</h3>
+					<p class="esg_subtitle">티앤에프글로벌은 미래 지속가능한 발전을 위해 ESG경영을 실천하고 있습니다.</p>
+				</div>
+			</section>
+
+			<section class="esg_sec02">
+				<div class="esg_focus_inner">
+					<img src="./images/esg_focus_img.jpg" alt="" />
+				</div>
+			</section>
+
+			<section class="esg_sec03">
+				<div class="esg_card_inner">
+					<div class="esg_card_list">
+						<ul class="esg_card_items">
+							<li>
+								<img src="./images/esg_img01.jpg" alt="" />
+								<strong>ENVIROMENTAL</strong>
+								<h3>환경</h3>
+								<p>ISO14001 (환경경영시스템) 인증 등을 통하여 환경법규 및 규정을 준수하며, 탄소배출 및 환경오염을 최소화하는 친환경 경영을 실천하고 있습니다.</p>
+							</li>
+							<li>
+								<img src="./images/esg_img02.jpg" alt="" />
+								<strong>SOCIAL</strong>
+								<h3>사회</h3>
+								<p>'함께하는 사회' 라는 원칙으로 사회적 책임을 다하며, 법과 윤리를 준수하며 윤리적 기업문화를 만들어가고 있습니다.</p>
+							</li>
+							<li>
+								<img src="./images/esg_img03.jpg" alt="" />
+								<strong>GOVERNANCE</strong>
+								<h3>지배구조</h3>
+								<p>기업윤리를 준수하고, 투명한 경영환경과 지배구조를 확립하고자 지속적으로 노력하고 있습니다.</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+
+			<%- include('footer.ejs') %>
+		</div>
+	</body>
+</html>

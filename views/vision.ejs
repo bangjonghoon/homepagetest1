@@ -1,33 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./css/css.css">
-</head>
-<body>
-  <div class="container">
-    <%- include('navi.ejs') %>
-    <div class="vison_visual">
-      <div class="about_txtwrap">
-        <h3>Vision</h3>
-      </div>
-      <div class="about_inner">
-        <ul class="about_gnb">
-          <li><a href="/about_us">기업개요</a></li>
-          <li><a href="/vision">VISION</a></li>
-          <li><a href="#">회사연혁</a></li>
-          <li><a href="#">CI</a></li>
-          <li><a href="#">위치안내</a></li>
-        </ul>
-      </div>
-    </div>
-    
-    <section style="height:3000px;"></section>
-    <%- include('footer.ejs') %>
-  </div>
-   
-  </section>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./css/css.css" />
+	</head>
+	<body>
+		<div class="container">
+			<%- include('navi.ejs') %>
+			<div class="vison_visual">
+				<div class="about_txtwrap">
+					<h3>회사소개</h3>
+					<p>고객에게 최고의 가치를 제공하는 전장부품 전문 소재기업</p>
+				</div>
+				<div class="about_inner">
+					<ul class="about_gnb">
+						<li><a href="/about_us">기업개요</a></li>
+						<li><a href="/vision">VISION</a></li>
+						<li><a href="/history">회사연혁</a></li>
+						<li><a href="#">CI</a></li>
+						<li><a href="/directions">위치안내</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<section class="vision_contents">
+				<img src="./images/vision_content_Bg.jpg" alt="" />
+			</section>
+
+			<%- include('footer.ejs') %>
+		</div>
+	</body>
 </html>
