@@ -1,0 +1,129 @@
+@charset "utf-8";
+.container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.esg_main {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.esg_main > .esg_visual {
+	position: relative;
+	width: 100%;
+	height: 80vh;
+	z-index: 0;
+	background: url("../images/esg_main_bg.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.esg_main > .esg_visual:before {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 80vh;
+	z-index: 0;
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3) 14%, rgba(0, 0, 0, 0.2));
+}
+.esg_txtwrap {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.esg_txtwrap h3 {
+	font-size: 55px;
+	color: #fff;
+	font-weight: 500;
+	letter-spacing: -2;
+	text-transform: uppercase;
+}
+
+.esg_txtwrap h3 {
+	animation: ani 1.2s 0.4s both;
+}
+
+@keyframes ani {
+	0% {
+		opacity: 0;
+		transform: translateY(70px);
+	}
+	50% {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+
+
+.esg_inner {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 0;
+	width: 1440px;
+	margin: 0 auto;
+}
+
+.recruite_gnb {
+	width: 1440px;
+	height: 60px;
+	z-index: 1;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: rgb(0, 0, 0, 0.7);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.main_value_tabs{}
+.tabs_innser{
+	width: 950px;
+	margin:0 auto;
+}
+.tabs_contents{
+	margin-top: 90px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-collapse: collapse;
+}
+.tabs_innser li{
+	box-sizing: border-box;
+	height: 72px;
+	line-height: 72px;
+	width: 33.333%;
+	border: 1px solid #CBCBCB;
+	border-right:none;
+}
+.tabs_innser li:nth-child(1){
+	background: #164EA3;
+}
+.tabs_innser li:nth-child(3){
+	border-right: 1px solid #CBCBCB;
+}
+.tabs_innser li:nth-child(1) a{
+	color:#fff;
+}
+.tabs_innser li>a{
+	border-collapse: collapse;
+	display: inline-block;
+	width: 100%;
+	height: inherit;
+	color:#000;
+	font-size: 18px;
+	font-weight: 600;
+}
+

@@ -1,7 +1,10 @@
 const router = require("express").Router();
 
-router.get("/philosophy", function (req, res) {
-	res.render("philosophy.ejs");
+router.get("/main_value", function (req, res) {
+	res.render("main_value.ejs");
+});
+router.get("/quality_innovation", function (req, res) {
+	res.render("quality_innovation.ejs");
 });
 
 router.get("/esg_innovation", function (req, res) {

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./css/css.css" />
+	</head>
+	<body>
+		<div class="container">
+			<%- include('navi.ejs') %>
+			<section class="main_value">
+				<div class="main_value_visual">
+					<div class="esg_txtwrap">
+						<h3>지속가능경영</h3>
+					</div>
+					<div class="recruite_inner">
+						<ul class="recruite_gnb">
+							<li><a href="/personnelsystem">핵심가치</a></li>
+							<li><a href="/culture">ESG 혁신</a></li>
+							<li><a href="#">인증현황</a></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+
+			<section class="esg_sec01">
+				<div class="esg_title_inner">
+					<h3 class="esg_title">핵심가치</h3>
+					<p class="esg_subtitle">
+						티앤에프글로벌은 기술혁신 / 품질혁신 / 경영혁신  핵심가치를<br> 
+						통하여 최고의 전장부품 기업으로 발전하고 있습니다. 
+					</p>
+				</div>
+				<article class="main_value_tabs">
+            <div class="tabs_innser">
+							<div class="tabs_contents">
+								<li><a href="#none">기술혁신</a></li>
+								<li><a href="/quality_Innovation">품질혁신</a></li>
+								<li><a href="#none">경영혁신</a></li>
+							</div>
+						</div>
+				</article>
+			</section>
+
+			<section class="about_us_contents">
+				<img src="./images/qc_innovation_contents.jpg" alt="">
+			</section>
+	
+
+
+
+
+			<%- include('footer.ejs') %>
+		</div>
+	</body>
+</html>

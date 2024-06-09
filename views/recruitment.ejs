@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./css/css.css" />
+	</head>
+	<body>
+		<div class="container">
+			<%- include('navi.ejs') %>
+			<main class="recruite">
+				<div class="recruite_visual">
+					<div class="recruite_txtwrap">
+						<h3>challenge and passion</h3>
+					</div>
+					<div class="recruite_inner">
+						<ul class="recruite_gnb">
+							<li><a href="/personnelsystem">인사제도</a></li>
+							<li><a href="/culture">조직문화</a></li>
+							<li><a href="/recruitment">채용절차</a></li>
+						</ul>
+					</div>
+				</div>
+			</main>
+
+			<section class="recruitment_wrap">
+				<div class="recruitment_inner">
+					<img src="./images/recruitment_content.jpg" alt="recruitment_content" />
+				</div>
+			</section>
+
+			<%- include('footer.ejs') %>
+		</div>
+	</body>
+</html>

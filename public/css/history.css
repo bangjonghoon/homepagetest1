@@ -49,9 +49,11 @@
 }
 
 .history_inner {
-	width: 1640px;
+	width: 100%;
+	text-align: center;
 	margin: 0 auto;
 }
 .history_inner img {
-	width: 100%;
+	width: 1920px;
+	max-width: 100%;
 }
