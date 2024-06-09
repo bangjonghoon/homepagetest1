@@ -12,6 +12,7 @@
 
 /* 사업영역 */
 @import url("./business_area.css");
+@import url("./notice.css");
 
 /* 인재채용 */
 @import url("./recruite.css");
