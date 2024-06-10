@@ -105,3 +105,15 @@
 	color: #000;
 	font-weight: 500;
 }
+
+.notice_contents {
+	width: 100%;
+}
+.notice-inner {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.notice-inner img {
+	width: 1920px;
+}
